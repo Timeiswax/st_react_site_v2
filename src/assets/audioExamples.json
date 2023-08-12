@@ -1,0 +1,16 @@
+[
+    [{
+    "title": "First Example",
+    "color": "red",
+    "description": "A simple A/B filtered drum sound",
+    "drySrc": "https://tigerwoodshugecock.com/test/DRMS_UNFILT.mp3",
+    "wetSrc": "https://tigerwoodshugecock.com/test/DRMS_FILT.mp3"
+    }],
+    [{
+    "title": "Second Example",
+    "color": "red",
+    "description": "Same as above tbh",
+    "drySrc": "https://tigerwoodshugecock.com/test/DRMS_UNFILT.mp3",
+    "wetSrc": "https://tigerwoodshugecock.com/test/DRMS_FILT.mp3"
+    }]
+]
