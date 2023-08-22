@@ -13,12 +13,14 @@ const Waveform = ({container, isPlaying, trackProgress, setNewTime, mediaElement
           // More info about options here https://wavesurfer-js.org/docs/options.html
           waveform.current = Wavesurfer.create({
             container: "#" + container,
-            waveColor: "#567FFF",
+            waveColor: "#09c3d8",
             barGap: 2,
-            barWidth: 3,
-            barRadius: 3,
+            barWidth: 5,
+            barRadius: 10,
             cursorWidth: 3,
-            cursorColor: "#567FFF",
+            height: 'auto',
+            cursorColor: "#111111",
+            progressColor: "#bfbfbf",
             media: mediaElement,
             //media: new Audio("https://cdn.freesound.org/previews/167/167115_331583-lq.mp3"),
           });

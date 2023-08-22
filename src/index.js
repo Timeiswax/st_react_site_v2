@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import RemoteDrums from './components/RemoteDrums';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,8 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />
   },
+  {path: "#rdr",
+element: <RemoteDrums />}
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

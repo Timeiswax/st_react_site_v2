@@ -1,7 +1,7 @@
-:root {
+/* :root {
     --white: #fff;
     --active-color: #00aeb0;
-  }
+  } */
   
   * {
     box-sizing: border-box;
@@ -23,14 +23,15 @@
   /*more specific audio player styles */
 
   .audio-player {
-    max-width: 350px;
+    width: 18rem;
+    height: 18rem;
     border-radius: 20px;
     padding: 24px;
     box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
     margin: auto;
-    margin-top: 24px;
     /*color: var(--white);*/
     background-color: blanchedalmond;
+    
   }
   
   .track-info {

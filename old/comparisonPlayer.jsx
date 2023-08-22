@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import './comparisonPlayer.css'
 import ComparisonControls from './comparisonControls';
 import Waveform from './waveform';
 import generateString from '../assets/generateRandomString';
@@ -8,7 +9,7 @@ import generateString from '../assets/generateRandomString';
 // and https://tabsoverspaces.in/posts/create-a-audio-player-in-nextjs/
 // and also https://github.com/mattbartley/AB-Audio-Player/commit/09a3f627a872e38efe93f6b5b5901d464f3c4443#diff-0993f3c6690deffcfa88c6652129bf458a28c99fd84f25c329bd8476cbce2487  
 
-function ComparisonPlayer({ fdata }) {
+const ComparisonPlayer = ({ fdata }) => {
 	// State
   const [isPlaying, setIsPlaying] = useState(false);
   const [trackVersion, setTrackVersion] = useState(0);
@@ -64,10 +65,10 @@ function ComparisonPlayer({ fdata }) {
   }, [isPlaying, trackVersion]);
 
 	return (
-  <article className="relative flex flex-col justify-center items-center px-14 bg-slate-600 rounded-lg mx-22">
-    <div className="">
-      <h2 className="">{title}</h2>
-      <h3 className="">{description}</h3>
+  <article className="audio-player">
+    <div className="track-info">
+      <h2 className="title">{title}</h2>
+      <h3 className="description">{description}</h3>
       
       <ComparisonControls
           isPlaying={isPlaying}

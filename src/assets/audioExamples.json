@@ -1,16 +1,30 @@
 [
     [{
-    "title": "First Example",
+    "title": "Good Ol' Independent Drums",
     "color": "red",
-    "description": "A simple A/B filtered drum sound",
-    "drySrc": "https://tigerwoodshugecock.com/test/DRMS_UNFILT.mp3",
-    "wetSrc": "https://tigerwoodshugecock.com/test/DRMS_FILT.mp3"
+    "description": "Punchy, roomy, and versitile",
+    "drySrc": "https://tigerwoodshugecock.com/test/EHD - Drums.mp3",
+    "wetSrc": "https://tigerwoodshugecock.com/test/EHD - Snip.mp3"
     }],
     [{
-    "title": "Second Example",
+    "title": "Voodoo Funk",
     "color": "red",
-    "description": "Same as above tbh",
-    "drySrc": "https://tigerwoodshugecock.com/test/DRMS_UNFILT.mp3",
-    "wetSrc": "https://tigerwoodshugecock.com/test/DRMS_FILT.mp3"
+    "description": "Dry and mono, a-la D'Angelo",
+    "drySrc": "https://tigerwoodshugecock.com/test/PG - Drums.mp3",
+    "wetSrc": "https://tigerwoodshugecock.com/test/PG - Snip.mp3"
+    }],
+    [{
+        "title": "Muted Thunk",
+        "color": "red",
+        "description": "Sometimes less is more when you know you'll be cranking knobs later",
+        "drySrc": "https://tigerwoodshugecock.com/test/M - Drums.mp3",
+        "wetSrc": "https://tigerwoodshugecock.com/test/M - Snip.mp3"
+    }],
+    [{
+        "title": "All Taped Up",
+        "color": "red",
+        "description": "Drums ran through an analog tape machine for loads of fun character",
+        "drySrc": "https://tigerwoodshugecock.com/test/QOTFP - Drums.mp3",
+        "wetSrc": "https://tigerwoodshugecock.com/test/QOTFP - Snip.mp3"
     }]
 ]

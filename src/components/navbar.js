@@ -29,7 +29,7 @@ function Navbar() {
             transition={{
                 duration: 1.5,
             }}>
-                <Dotz className="w-16"/>
+                <a href="/#top"><Dotz className="w-16"/></a>
             </motion.div>
             <motion.div
             initial={{

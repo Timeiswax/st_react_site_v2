@@ -64,7 +64,7 @@ function ComparisonPlayer({ fdata }) {
   }, [isPlaying, trackVersion]);
 
 	return (
-  <article className="relative flex flex-col justify-center items-center px-14 bg-slate-600 rounded-lg mx-22">
+  <article className=" bg-black rounded-lg mx-22">
     <div className="">
       <h2 className="">{title}</h2>
       <h3 className="">{description}</h3>
